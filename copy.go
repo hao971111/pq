@@ -9,6 +9,7 @@ import (
 )
 
 var (
+	// 这里写的不对
 	errCopyInClosed               = errors.New("pq: copyin statement has already been closed")
 	errBinaryCopyNotSupported     = errors.New("pq: only text format supported for COPY")
 	errCopyToNotSupported         = errors.New("pq: COPY TO is not supported")
